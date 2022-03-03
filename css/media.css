@@ -1,0 +1,106 @@
+/* Tablets + low res laptops */
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+    }
+    @media (min-width: 1200px) {
+        .container {
+            width: 730px;
+            margin-left: 290px;
+        }
+        header .container {
+            width: 1110px;
+            margin: 0 auto;
+        }
+        .mobile-nav {
+            display: none;
+        }
+        .nav {
+            overflow-x: hidden;
+        }
+        .desktop-nav {
+            display: block;
+        }
+        .footer--mobile {
+            display: none;
+        }
+        .footer--desktop {
+            display: block;
+            width: 1140px;
+        }
+        .header-left li {
+            margin-right: 32px;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+        .header-left li:last-child {
+            margin-right: 0;
+        }
+        .course-learn__list li {
+            width: 50%;
+        }
+        .course-learn__list li:nth-child(odd) {
+            float: left;
+        }
+        .course-learn__list li:nth-child(even) {
+            float: right;
+        }
+        .course-about__video {
+            margin: 55px 24px 0 0;
+            /* width: 382px; */
+        }
+        .course-about__desc {
+            color: #25265EDE;
+        }
+        .course-about__desc.one {
+            float: left;
+            width: 324px;
+        }
+        .course-about__desc.two {
+            float: left;
+            width: 324px;
+        }
+        .footer__main {
+            float: left;
+            margin-top: 0px;
+        }
+        .footer__info-section p {
+            font-size: 14px;
+            line-height: 20px;
+            color: #D3DCE6;
+        }
+        .footer__main h5 {
+            font-size: 18px;
+            line-height: 28px;
+        }
+        .footer__main {
+            margin-right: 30px;
+        }
+        .footer__main:last-child {
+            margin-right: 0;
+        }
+        .footer-list li {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .footer__section-first {
+            padding: 120px 0 140px;
+        }
+        .footer__info-copyright {
+            float: left;
+            margin: 24px 0 5px 1px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .footer__copyright {
+            border-top: 1px solid #D3DCE6;
+            margin-bottom: 27px;
+        }
+        .footer__copyright img {
+            float: right;
+            margin-top: 8px;
+        }
+    }
+}
